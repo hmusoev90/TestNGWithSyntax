@@ -2,16 +2,19 @@
 <testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39873" started-at="2020-09-03T20:26:25 COT" finished-at="2020-09-03T20:27:05 COT">
+  <suite name="Suite" duration-ms="52806" started-at="2020-09-05T11:24:21 COT" finished-at="2020-09-05T11:25:13 COT">
     <groups>
+      <group name="smoke">
+        <method signature="LoginPage.multipleLogin(java.lang.String, java.lang.String)[pri:0, instance:com.syntax.class03.LoginPage@3fd7a715]" name="multipleLogin" class="com.syntax.class03.LoginPage"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="39873" started-at="2020-09-03T20:26:25 COT" finished-at="2020-09-03T20:27:05 COT">
+    <test name="Test" duration-ms="52806" started-at="2020-09-05T11:24:21 COT" finished-at="2020-09-05T11:25:13 COT">
       <class name="com.syntax.class03.LoginPage">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class03.LoginPage@26aa12dd]" name="openBrowser" is-config="true" duration-ms="7523" started-at="2020-09-03T20:26:25 COT" finished-at="2020-09-03T20:26:33 COT">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class03.LoginPage@3fd7a715]" name="openBrowser" is-config="true" duration-ms="20744" started-at="2020-09-05T11:24:21 COT" finished-at="2020-09-05T11:24:41 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="multipleLogin(java.lang.String, java.lang.String)[pri:0, instance:com.syntax.class03.LoginPage@26aa12dd]" name="multipleLogin" duration-ms="6123" started-at="2020-09-03T20:26:33 COT" data-provider="getData" finished-at="2020-09-03T20:26:39 COT">
+        <test-method status="PASS" signature="multipleLogin(java.lang.String, java.lang.String)[pri:0, instance:com.syntax.class03.LoginPage@3fd7a715]" name="multipleLogin" duration-ms="6582" started-at="2020-09-05T11:24:41 COT" data-provider="getData" finished-at="2020-09-05T11:24:48 COT">
           <params>
             <param index="0">
               <value>
@@ -27,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class03.LoginPage@26aa12dd]" name="closeBrowser" is-config="true" duration-ms="642" started-at="2020-09-03T20:26:39 COT" finished-at="2020-09-03T20:26:40 COT">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class03.LoginPage@3fd7a715]" name="closeBrowser" is-config="true" duration-ms="614" started-at="2020-09-05T11:24:48 COT" finished-at="2020-09-05T11:24:49 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class03.LoginPage@26aa12dd]" name="openBrowser" is-config="true" duration-ms="7441" started-at="2020-09-03T20:26:40 COT" finished-at="2020-09-03T20:26:47 COT">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class03.LoginPage@3fd7a715]" name="openBrowser" is-config="true" duration-ms="6870" started-at="2020-09-05T11:24:49 COT" finished-at="2020-09-05T11:24:56 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="multipleLogin(java.lang.String, java.lang.String)[pri:0, instance:com.syntax.class03.LoginPage@26aa12dd]" name="multipleLogin" duration-ms="4714" started-at="2020-09-03T20:26:47 COT" data-provider="getData" finished-at="2020-09-03T20:26:52 COT">
+        <test-method status="FAIL" signature="multipleLogin(java.lang.String, java.lang.String)[pri:0, instance:com.syntax.class03.LoginPage@3fd7a715]" name="multipleLogin" duration-ms="4682" started-at="2020-09-05T11:24:56 COT" data-provider="getData" finished-at="2020-09-05T11:25:00 COT">
           <params>
             <param index="0">
               <value>
@@ -44,7 +47,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Synax123!]]>
+                <![CDATA[Syntax123!]]>
               </value>
             </param>
           </params>
@@ -56,8 +59,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'ASUS-ZENBOOK', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Habib\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 44fd00d9bda25e9f7044aba1b83a514b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Habib\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f645278899ccdfc7cd56d80cb89b9b99
 *** Element info: {Using=css selector, value=a#welcome}]]>
             </message>
             <full-stacktrace>
@@ -67,8 +70,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'ASUS-ZENBOOK', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Habib\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 44fd00d9bda25e9f7044aba1b83a514b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Habib\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f645278899ccdfc7cd56d80cb89b9b99
 *** Element info: {Using=css selector, value=a#welcome}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -119,15 +122,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class03.LoginPage@26aa12dd]" name="closeBrowser" is-config="true" duration-ms="624" started-at="2020-09-03T20:26:52 COT" finished-at="2020-09-03T20:26:52 COT">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class03.LoginPage@3fd7a715]" name="closeBrowser" is-config="true" duration-ms="626" started-at="2020-09-05T11:25:00 COT" finished-at="2020-09-05T11:25:01 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class03.LoginPage@26aa12dd]" name="openBrowser" is-config="true" duration-ms="6898" started-at="2020-09-03T20:26:52 COT" finished-at="2020-09-03T20:26:59 COT">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class03.LoginPage@3fd7a715]" name="openBrowser" is-config="true" duration-ms="7382" started-at="2020-09-05T11:25:01 COT" finished-at="2020-09-05T11:25:08 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="multipleLogin(java.lang.String, java.lang.String)[pri:0, instance:com.syntax.class03.LoginPage@26aa12dd]" name="multipleLogin" duration-ms="4762" started-at="2020-09-03T20:26:59 COT" data-provider="getData" finished-at="2020-09-03T20:27:04 COT">
+        <test-method status="FAIL" signature="multipleLogin(java.lang.String, java.lang.String)[pri:0, instance:com.syntax.class03.LoginPage@3fd7a715]" name="multipleLogin" duration-ms="4642" started-at="2020-09-05T11:25:08 COT" data-provider="getData" finished-at="2020-09-05T11:25:13 COT">
           <params>
             <param index="0">
               <value>
@@ -148,8 +151,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'ASUS-ZENBOOK', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Habib\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0c67c0393bd1847464d322e77d429ca9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Habib\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bf37fac5152f2805c67043ccf4d29ba8
 *** Element info: {Using=css selector, value=a#welcome}]]>
             </message>
             <full-stacktrace>
@@ -159,8 +162,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'ASUS-ZENBOOK', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Habib\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0c67c0393bd1847464d322e77d429ca9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Habib\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bf37fac5152f2805c67043ccf4d29ba8
 *** Element info: {Using=css selector, value=a#welcome}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -211,11 +214,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class03.LoginPage@26aa12dd]" name="closeBrowser" is-config="true" duration-ms="1093" started-at="2020-09-03T20:27:04 COT" finished-at="2020-09-03T20:27:05 COT">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class03.LoginPage@3fd7a715]" name="closeBrowser" is-config="true" duration-ms="617" started-at="2020-09-05T11:25:13 COT" finished-at="2020-09-05T11:25:13 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.syntax.class03.LoginPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
